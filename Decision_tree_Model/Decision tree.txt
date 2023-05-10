@@ -1,0 +1,8 @@
+Implemented the decision tree
+
+1. Here I am not using any existing library for algorithm implementation.
+
+2. Only using a library to clean up data.
+
+3. The datset I am using here is Iris dataset 
+
