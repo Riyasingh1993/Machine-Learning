@@ -1,0 +1,4 @@
+Here I have Implemented the Naive Bayes Algorithm and Bag of Words for text classification.
+I have not used any existing library for algorithm implementation.
+I have used a library to clean up data. 
+I have not generate a synthetic dataset on my own but used 20_newsgroup dataset. 
