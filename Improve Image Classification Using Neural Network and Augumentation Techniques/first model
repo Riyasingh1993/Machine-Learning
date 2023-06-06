@@ -1,0 +1,12 @@
+Improve Image Classification Using Neural Network and Data Augmentation Technique.
+Pre-requisites
+•	Python 2.7
+•	Keras
+
+
+Here I am planning to implement various neural network models and check which model combination provides the best accuracy.
+The first model which I have implemented is M0 model which consist of 2 Convolutional Layers
+The Train and Test Accuracy that we obtained here is 99% and 66%.
+ 
+Here The shapes of 3D feature maps are passed between layers and their connections. Conv1 and Conv2 have the same space size of 32x32x32, while the pooling layer has the space size of 16x16x32 after dimensionality reduction. 
+The flatten layer is used to adjust the feature maps to the dense layer. The output layer has ten neurons with one for each target.
