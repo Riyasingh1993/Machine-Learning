@@ -1,0 +1,7 @@
+The Second model which I have implemented is M-DA-0 model which consist of 6 Convolutional Layers Without any Data Augumentation Technique being used.
+The Train and Test Accuracy that we obtained here is 99% and 82%.
+ 
+This model pattern is three stacks of two convolutional layers followed by three max-pooling layer. 
+The 3 filter numbers applied in the stacking convolutional layers slide from 32,64, 128 separately. 
+The flatten layer is used to adjust the feature maps to the dense layer with the probability output for ten classes.
+We also added Batch Normalization layers.
