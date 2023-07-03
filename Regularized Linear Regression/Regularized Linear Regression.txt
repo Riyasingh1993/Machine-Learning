@@ -1,8 +1,9 @@
 Implemented regularized linear regression and use grid search and 5-fold cross-validation to find the optimal value of the regularization coefficient. 
 
-1.Used a existing library for algorithm implementation.
+1. Used an existing library for algorithm implementation.
 
-2.Used a library to clean up data. 
+2. Used a library to clean up data. 
 
 3. Used a library function to work with matrices. 
 
+4. used a Airfoil self-noise dataset to test the regression function.
