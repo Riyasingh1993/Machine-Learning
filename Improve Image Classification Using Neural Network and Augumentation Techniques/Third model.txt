@@ -1,0 +1,15 @@
+The third model which I have implemented is the M-DA-1 model which consists of 6 Convolutional Layers With Data Augmentation Technique being used.
+The Train and Test Accuracy that we obtained here are 96% and 88%.
+ 
+This model pattern is three stacks of two convolutional layers followed by three max-pooling layers. 
+The 3 filter numbers applied in the stacking convolutional layers slide from 32,64, and 128 separately. 
+The flattened layer is used to adjust the feature maps to the dense layer with the probability output for ten classes.
+I  also added Batch Normalization layers and one dropout layer 
+
+# I have done image pre-processing for augmentation as below in this model
+datagen = ImageDataGenerator(
+    rotation_range=15,  # randomly rotate images in the range (degrees, 0 to 180)
+    width_shift_range=0.1,  # randomly shift images horizontally (fraction of total width)
+    height_shift_range=0.1,  # randomly shift images vertically (fraction of total height)
+    horizontal_flip=True,  # randomly flip images
+    vertical_flip=False)  # randomly flip images
