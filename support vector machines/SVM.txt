@@ -1,0 +1,12 @@
+Used a preexisting library implementation of Support Vector Machines to analyze the Wisconsin breast cancer dataset (https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/). 
+
+1. First I have download the data file named "breast-cancer-wisconsin.data", and read the "breast-cancer-wisconsin.names" file to know more about the dataset.
+
+2. Then i have Split the dataset into 80 percent training and 20 percent test data. 
+
+3. Reported the five-fold cross-validated, class-balanced accuracy on the dataset. 
+
+4. I am targeting the accuracy for the dataset as 95%.
+
+5. I have tried various 'C' hyper-parameter values and various kernel functions to attain this result. 
+
