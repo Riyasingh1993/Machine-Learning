@@ -1,0 +1,12 @@
+Here I have Implement K-Means and GMM to analyze the Iris dataset (https://archive.ics.uci.edu/ml/machine-learning-databases/iris/). 
+
+1. First ia have download the "iris.data", and read the "iris.names" file to know more about the dataset.
+
+2. Then i have Cluster the dataset using K-Means. The total number of data points mixed with a cluster with a majority of different labels must be less than 7.
+
+3. After that I have used the clusters from K-Means to initialize the mean, covariance, and the mixing coefficient of GMM.
+
+4. All three mixing coefficients of the GMM model should be between 0.299 and 0.37.
+
+5. I have not used the existing library for algorithm implementation.
+
