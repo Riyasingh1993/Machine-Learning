@@ -2,7 +2,7 @@ The fifth model that I have implemented is the VGG-16-0 model which consists of 
 The Train and Test Accuracy that we obtained here are 99% and 83%.
  
 This model pattern is two stacks of two convolutional layers and three stacks of three convolution layers followed by five max-pooling layers. 
-The 3 filter numbers applied in the stacking convolutional layers slide from 64, 128, 256, and 512 separately. 
+The 4 filter numbers applied in the stacking convolutional layers slide from 64, 128, 256, and 512 separately. 
 The flattened layer is used to adjust the feature maps to the dense layer with the probability output for ten classes.
 after the flattened and dense layer.
 I  also added Batch Normalization layers.
