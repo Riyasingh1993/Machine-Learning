@@ -1,4 +1,4 @@
-The sixth model that I have implemented is the VGG-16-0 model which consists of 13 Convolutional Layers With some Data Augmentation Techniques that we have used in the fifth model Here, the Gaussian noise is also not added to the model.
+The sixth model that I have implemented is the VGG-16-1 model which consists of 13 Convolutional Layers With some Data Augmentation Techniques that we have used in the fifth model Here, the Gaussian noise is also not added to the model.
 The Train and Test Accuracy that we obtained here are 99% and 91%.
  
 This model pattern is two stacks of two convolutional layers and three stacks of three convolution layers followed by five max-pooling layers. 
