@@ -1,0 +1,19 @@
+The sixth model that I have implemented is the VGG-16-0 model which consists of 13 Convolutional Layers With some Data Augmentation Techniques that we have used in the fifth model Here, the Gaussian noise is also not added to the model.
+The Train and Test Accuracy that we obtained here are 99% and 91%.
+ 
+This model pattern is two stacks of two convolutional layers and three stacks of three convolution layers followed by five max-pooling layers. 
+The 4 filter numbers applied in the stacking convolutional layers slide from 64, 128, 256, and 512 separately. 
+The flattened layer is used to adjust the feature maps to the dense layer with the probability output for ten classes.
+After that, the flattened and dense layer is added to the model.
+I  also added Batch Normalization layers.
+
+The optimizer that I have used here is "Adamax" and the activation argument is "elu".
+
+# I have added some mild image pre-processing for augmentation
+datagen = ImageDataGenerator(
+    rotation_range=15,  # randomly rotate images in the range (degrees, 0 to 180)
+    width_shift_range=0.1,  # randomly shift images horizontally (fraction of total width)
+    height_shift_range=0.1,  # randomly shift images vertically (fraction of total height)
+    horizontal_flip=True,  # randomly flip images
+    vertical_flip=False)  # randomly flip images
+    
